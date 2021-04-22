@@ -1,0 +1,128 @@
+[
+  {
+    "source": "i type {string} in amazon search Bar",
+    "steps": [
+      {
+        "name": "i type \"qa testing for beginners\" in amazon search Bar",
+        "aggregatedDurations": {
+          "median": 14.6248365,
+          "average": 14.6248365
+        },
+        "durations": [
+          {
+            "duration": 14.6248365,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on the first item in the list  result",
+    "steps": [
+      {
+        "name": "i click on the first item in the list  result",
+        "aggregatedDurations": {
+          "median": 9.3635356,
+          "average": 9.3635356
+        },
+        "durations": [
+          {
+            "duration": 9.3635356,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i assert {string} after click on first item",
+    "steps": [
+      {
+        "name": "i assert \"$47.49\" after click on first item",
+        "aggregatedDurations": {
+          "median": 0.6960398,
+          "average": 0.6960398
+        },
+        "durations": [
+          {
+            "duration": 0.6960398,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i Click on Add to Cart",
+    "steps": [
+      {
+        "name": "i Click on Add to Cart",
+        "aggregatedDurations": {
+          "median": 3.793217,
+          "average": 3.793217
+        },
+        "durations": [
+          {
+            "duration": 3.793217,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i assert {string} after click on add to cart",
+    "steps": [
+      {
+        "name": "i assert \"$47.49\" after click on add to cart",
+        "aggregatedDurations": {
+          "median": 0.2790159,
+          "average": 0.2790159
+        },
+        "durations": [
+          {
+            "duration": 0.2790159,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click  on proceed to checkout",
+    "steps": [
+      {
+        "name": "I click  on proceed to checkout",
+        "aggregatedDurations": {
+          "median": 1.5810905,
+          "average": 1.5810905
+        },
+        "durations": [
+          {
+            "duration": 1.5810905,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i assert {string} after checkout",
+    "steps": [
+      {
+        "name": "i assert \"$47.49\" after checkout",
+        "aggregatedDurations": {
+          "median": 0.0450026,
+          "average": 0.0450026
+        },
+        "durations": [
+          {
+            "duration": 0.0450026,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/Equifax_Coding_Exercice/com.amazon/src/test/java/features/Amazon.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

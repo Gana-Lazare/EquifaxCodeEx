@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- for a multithread -->
+<!--<suite name="TestSuite" thread-count="2" parallel="tests">-->
+<suite name="Amazon suite" >
+ <listeners>
+     <listener class-name="TestNGListner.Listner"></listener>
+ </listeners>
+
+    <test name="Amazon test">
+        <classes>
+            <!---->
+            <class name="Runner.AmazonRunner"></class>
+        </classes>
+    </test>
+
+</suite>
+

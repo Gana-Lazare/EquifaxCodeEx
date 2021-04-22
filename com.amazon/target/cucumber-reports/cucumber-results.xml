@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="56.158">
+    <testcase classname="search for an Item Book from home page" name="search for Search for Book qa testing for beginners in amazon search bare" time="55.748">
+        <system-out>
+            <![CDATA[Given i type "qa testing for beginners" in amazon search Bar................passed
+And i click on the first item in the list  result...........................passed
+And i assert "$47.49" after click on first item.............................passed
+And i Click on Add to Cart..................................................passed
+And i assert "$47.49" after click on add to cart............................passed
+When I click  on proceed to checkout........................................passed
+Then i assert "$47.49" after checkout.......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

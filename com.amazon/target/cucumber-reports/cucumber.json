@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-22T13:47:31.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25307447500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "search for Search for Book qa testing for beginners in amazon search bare",
+        "description": "",
+        "id": "search-for-an-item-book-from-home-page;search-for-search-for-book-qa-testing-for-beginners-in-amazon-search-bare;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.afterearchScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14624836500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i type \"qa testing for beginners\" in amazon search Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa testing for beginners\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.AmazonStepDefinitions.i_type_in_amazon_search_bar(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9363535600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click on the first item in the list  result",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.i_click_on_the_first_item_in_the_list_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696039800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i assert \"$47.49\" after click on first item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$47.49\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.AmazonStepDefinitions.i_assert_after_click_on_first_item(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3793217000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i Click on Add to Cart",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.i_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279015900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i assert \"$47.49\" after click on add to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$47.49\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.AmazonStepDefinitions.i_assert_after_click_on_add_to_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1581090500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click  on proceed to checkout",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.i_click_on_proceed_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45002600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i assert \"$47.49\" after checkout",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$47.49\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.AmazonStepDefinitions.i_assert_after_checkout(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search for an Item Book from home page",
+    "description": "",
+    "id": "search-for-an-item-book-from-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Amazon.feature",
+    "tags": []
+  }
+]
